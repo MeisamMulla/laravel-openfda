@@ -9,7 +9,7 @@ You can use this API without an API key however you will be limited to 1,000 req
 You can install the Laravel OpenFDA package via Composer by running the following command:
 
 ```bash
-composer require meisammulla/laravel-openfda
+composer require meisam-mulla/laravel-openfda
 ```
 
 ## Usage
