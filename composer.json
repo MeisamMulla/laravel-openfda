@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "MeisamMulla\\OpenFDA\\": "src/"
+            "MeisamMulla\\OpenFDA\\": "src"
         }
     },
     "authors": [
@@ -24,7 +24,11 @@
         "laravel": {
             "providers": [
                 "MeisamMulla\\OpenFDA\\OpenFDAServiceProvider"
-            ]
+            ],
+            "aliases":
+            {
+                "OpenFDA": "MeisamMulla\\OpenFDA\\OpenFDAFacade"
+            }
         }
     }
 }
