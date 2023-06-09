@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MeisamMulla\\OpenFDAServiceProvider"
+                "MeisamMulla\\OpenFDA\\OpenFDAServiceProvider"
             ]
         }
     }
