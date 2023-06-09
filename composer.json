@@ -1,0 +1,32 @@
+{
+    "name": "meisam-mulla/laravel-openfda",
+    "description": "Simplified OpenFDA API for Laravel",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "license": "MIT",
+    "keywords": [
+        "openfda",
+        "laravel"
+    ],
+    "autoload": {
+        "psr-4": {
+            "MeisamMulla\\OpenFDA\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Meisam Mulla",
+            "email": "mmeisam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MeisamMulla\\OpenFDAServiceProvider"
+            ]
+        }
+    }
+}
