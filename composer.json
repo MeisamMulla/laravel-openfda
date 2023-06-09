@@ -24,11 +24,7 @@
         "laravel": {
             "providers": [
                 "MeisamMulla\\OpenFDA\\OpenFDAServiceProvider"
-            ],
-            "aliases":
-            {
-                "OpenFDA": "MeisamMulla\\OpenFDA\\OpenFDAFacade"
-            }
+            ]
         }
     }
 }
