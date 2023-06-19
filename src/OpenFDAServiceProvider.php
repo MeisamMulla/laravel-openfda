@@ -11,7 +11,7 @@ class OpenFDAServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->bind('OpenFDA', function () {
-            return new OpenFDA;
+            return new OpenFDA();
         });
     }
 
@@ -22,4 +22,8 @@ class OpenFDAServiceProvider extends ServiceProvider
     {
         
     }
+
+    public function provides() {
+		return ['OpenFDA'];
+	}
 }
