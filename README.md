@@ -48,7 +48,6 @@ The following methods are available for querying the openFDA APIs:
 | `limit(int $limit): OpenFDA`        | Set the maximum number of results to be returned.                                         |
 | `skip(int $skip): OpenFDA`          | Set the number of results to skip.                                                        |
 | `get(): stdClass`                   | Send the API request and retrieve the response.                                           |
-| `resetQuery(): void`                | Reset the query parameters to their default values.                                       |
 
 ### Available Endpoints
 
